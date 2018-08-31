@@ -543,8 +543,8 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
 }
 
 .btn-danger {
-  background-color: #f5593d;
-  border-color: #f5593d;
+  background-color: #1e5939;
+  border-color: #1e5939;
   color: #FFFFFF;
   opacity: 1;
   filter: alpha(opacity=100);
@@ -558,7 +558,7 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
   border-top-color: #FFFFFF;
 }
 .btn-danger.btn-link {
-  color: #f5593d;
+  color: #1e5939;
 }
 .btn-danger.btn-link:hover, .btn-danger.btn-link:focus, .btn-danger.btn-link:active, .btn-danger.btn-link.active, .open > .btn-danger.btn-link.dropdown-toggle {
   background-color: transparent;
@@ -3581,7 +3581,7 @@ textarea.form-control {
 }
 
 .icon-danger {
-  color: #f5593d;
+  color: #76a08e;
 }
 
 .icon-neutral {

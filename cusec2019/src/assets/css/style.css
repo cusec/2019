@@ -3272,7 +3272,7 @@ input[type="button"].btn-block {
   padding-top: 0.3125rem;
   padding-bottom: 0.3125rem;
   margin-right: 1rem;
-  font-size: 1.25rem;
+  font-size: 2.25rem;
   line-height: inherit;
   white-space: nowrap; }
   .navbar-brand:hover, .navbar-brand:focus {
@@ -7412,7 +7412,7 @@ h1, h2, h3, h4, h5,
 .navbar-brand {
   text-transform: uppercase;
   letter-spacing: .1em;
-  font-size: 30px;
+  font-size: 35px;
   font-family: "Roboto"}
 
 .bg-image, .ftco-cover {
@@ -8623,6 +8623,7 @@ textarea.form-control {
 
 .block-31 .owl-nav {
   position: absolute;
+  overflow: hidden;
   right: 50px;
   bottom: 130px; }
   .block-31 .owl-nav .owl-prev, .block-31 .owl-nav .owl-next {
@@ -8651,6 +8652,7 @@ textarea.form-control {
 
 .block-30 {
   background-size: cover;
+  overflow: hidden;
   background-color: #ccc;
   padding: 0;
   position: relative; }

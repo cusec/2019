@@ -4158,6 +4158,12 @@ textarea.form-control {
   width: 49%;
 }
 
+.modal-footer .full-side {
+  display: inline-block;
+  text-align: center;
+  width: 100%;
+}
+
 .modal-footer .btn-link {
   padding: 20px;
   width: 100%;
@@ -5598,14 +5604,16 @@ textarea.form-control {
 }
 
 .btn-twitter {
-  color: #55acee !important;
+  background-color: #55acee !important;
+  color: #FFF !important;
 }
 .btn-twitter:hover, .btn-twitter:focus, .btn-twitter:active {
   color: #55acee !important;
 }
 
 .btn-facebook {
-  color: #3b5998 !important;
+  background-color: #3b5998;
+  color: #FFF !important;
 }
 .btn-facebook:hover, .btn-facebook:focus, .btn-facebook:active {
   color: #3b5998 !important;

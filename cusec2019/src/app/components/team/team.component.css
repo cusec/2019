@@ -3,11 +3,15 @@
 }
 
 .main-subtitle {
-  padding-bottom: 8%;
+  padding-bottom: 1%;
 }
 
 .card-title-black {
   color: #000;
+}
+
+.white-font {
+  color: #FFF;
 }
 
 .card-title-grey {
@@ -20,4 +24,41 @@ h4 {
 
 h6 {
   color: #000;
+}
+
+.col-centered {
+  display: block;
+  margin: 0 auto;
+}
+
+#frame {
+  /* position: relative; */
+  display: block;
+  /* margin-left: 25%; */
+  margin: auto;
+  /* border: solid 5px #555; */
+  max-width: 615px;
+  /* margin: 40px auto; */
+  /* box-shadow: -3px -3px 12px #999; */
+}
+
+#border {
+  position: relative;
+  padding: 0;
+  margin: 0;
+  border: solid 10px white;
+  /* box-shadow: -3px -3px 12px #999; */
+}
+
+img {
+  display: block;
+  filter: sepia(10%);
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: auto;
+  border-top: solid 2px #aaa;
+  border-left: solid 2px #aaa;
+  border-bottom: solid 2px #ccc;
+  border-right: solid 2px #ccc;
 }

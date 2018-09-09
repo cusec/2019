@@ -192,7 +192,7 @@ a:hover, a:focus {
 }
 
 hr {
-  border-color: #F1EAE0;
+  border-color: #96856d;
 }
 
 .icon {
@@ -5592,7 +5592,7 @@ textarea.form-control {
   color: #FFF !important;
 }
 .btn-twitter:hover, .btn-twitter:focus, .btn-twitter:active {
-  color: #55acee !important;
+  color: white !important;
 }
 
 .btn-facebook {
@@ -5600,7 +5600,41 @@ textarea.form-control {
   color: #FFF !important;
 }
 .btn-facebook:hover, .btn-facebook:focus, .btn-facebook:active {
-  color: #3b5998 !important;
+  color: white !important;
+}
+
+.btn-youtube {
+  background-color: #ff0000;
+  color: #FFF !important;
+}
+.btn-youtube:hover, .btn-facebook:focus, .btn-facebook:active {
+  color: white !important;
+}
+
+.btn-youtube-bg {
+  background-color: #ff0000 !important;
+  border-color: #ff0000 !important;
+}
+.btn-youtube-bg:hover {
+  background-color: #ec0505 !important;
+  border-color: #ec0505 !important;
+}
+
+.btn-mail {
+  background-color: #64d56f;
+  color: #FFF !important;
+}
+.btn-mail:hover, .btn-facebook:focus, .btn-facebook:active {
+  color: white !important;
+}
+
+.btn-mail-bg {
+  background-color: #64c1d5 !important;
+  border-color: #64c1d5 !important;
+}
+.btn-mail-bg:hover {
+  background-color: #5ab0c3 !important;
+  border-color: #5ab0c3 !important;
 }
 
 .btn-google {

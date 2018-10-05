@@ -497,6 +497,35 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
   border-top-color: #FFFFFF;
 }
 
+.btn-rose {
+  background-color: #d92986;
+  border-color: #d92986;
+  color: #FFFFFF;
+  opacity: 1;
+  filter: alpha(opacity=100);
+}
+.btn-rose:hover, .btn-info:focus, .btn-info:active, .btn-info.active, .show > .btn-info.dropdown-toggle {
+  background-color: #c62479;
+  color: #FFFFFF;
+  border-color: #c62479;
+}
+.btn-rose .caret {
+  border-top-color: #FFFFFF;
+}
+.btn-rose.btn-link {
+  color: #d92986;
+}
+.btn-rose.btn-link:hover, .btn-info.btn-link:focus, .btn-info.btn-link:active, .btn-info.btn-link.active, .open > .btn-info.btn-link.dropdown-toggle {
+  background-color: transparent;
+  color: #c62479;
+}
+.btn-rose.btn-link .caret {
+  border-top-color: #d92986;
+}
+.btn-rose .caret {
+  border-top-color: #FFFFFF;
+}
+
 .btn-warning {
   background-color: #fbc658;
   border-color: #fbc658;

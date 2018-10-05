@@ -2514,8 +2514,8 @@ textarea.form-control {
   margin-top: 5px;
 }
 .card-profile .card-avatar {
-  max-width: 120px;
-  max-height: 120px;
+  max-width: 130px;
+  max-height: 130px;
   margin: -60px auto 0;
   border-radius: 50%;
   overflow: hidden;

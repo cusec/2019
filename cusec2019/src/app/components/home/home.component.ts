@@ -15,6 +15,11 @@ export class HomeComponent implements OnInit {
   constructor(private router: Router, private location: Location) { }
 
   ngOnInit() {
+
+    let script = document.createElement('script');
+    document.body.appendChild(script);
+    script.src = "assets/js/smoothscroll.js";
+
       this.location.subscribe((ev:PopStateEvent) => {
           this.lastPoppedUrl = ev.url;
       });
@@ -30,6 +35,12 @@ export class HomeComponent implements OnInit {
                   window.scrollTo(0, 0);
           }
       });
+  }
+
+  scrollTo(className: string):void {
+     const elementList = document.querySelectorAll('.' + className);
+     const element = elementList[0] as HTMLElement;
+     element.scrollIntoView({ behavior: 'smooth' });
   }
 
 }

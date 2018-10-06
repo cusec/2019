@@ -1,6 +1,7 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { RouterModule, Routes } from '@angular/router';
 import { NgModule } from '@angular/core';
+import {NgxPageScrollModule} from 'ngx-page-scroll';
 
 import { AppComponent } from './app.component';
 import { CodeofconductComponent } from './components/codeofconduct/codeofconduct.component';
@@ -48,6 +49,7 @@ const appRoutes: Routes = [
   ],
   imports: [
     BrowserModule,
+    NgxPageScrollModule,
     RouterModule.forRoot(appRoutes)
     // RouterModule.forRoot(appRoutes, {scrollPositionRestoration: 'enabled'})
   ],

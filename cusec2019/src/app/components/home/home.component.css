@@ -64,3 +64,8 @@ img.align-self {
 .section-beige {
   background-color: #eae7dc;
 }
+
+#relive {
+  color: #d92986;
+  text-shadow: 0 0 10px #d92986;
+}

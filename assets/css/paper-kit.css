@@ -526,6 +526,35 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
   border-top-color: #FFFFFF;
 }
 
+.btn-tickets {
+  background-color: #f2970d;
+  border-color: #f2970d;
+  color: #FFFFFF;
+  opacity: 1;
+  filter: alpha(opacity=100);
+}
+.btn-tickets:hover, .btn-tickets:focus, .btn-tickets:active, .btn-tickets.active, .show > .btn-tickets.dropdown-toggle {
+  background-color: #de8a0a;
+  color: #FFFFFF;
+  border-color: #de8a0a;
+}
+.btn-tickets .caret {
+  border-top-color: #FFFFFF;
+}
+.btn-tickets.btn-link {
+  color: #f2970d;
+}
+.btn-tickets.btn-link:hover, .btn-tickets.btn-link:focus, .btn-tickets.btn-link:active, .btn-tickets.btn-link.active, .open > .btn-tickets.btn-link.dropdown-toggle {
+  background-color: transparent;
+  color: #de8a0a;
+}
+.btn-tickets.btn-link .caret {
+  border-top-color: #f2970d;
+}
+.btn-tickets .caret {
+  border-top-color: #FFFFFF;
+}
+
 .btn-warning {
   background-color: #fbc658;
   border-color: #fbc658;
@@ -1383,7 +1412,7 @@ textarea.form-control {
 }
 
 .alert-warning {
-  background-color: #fcd27b;
+  background-color: #f2970d;
 }
 
 .alert-danger {

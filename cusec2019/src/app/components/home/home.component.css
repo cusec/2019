@@ -38,10 +38,8 @@ img.align-self {
   margin-left: 0;
 }
 
- /* Iframe */
 .iframe-container {
   overflow: hidden;
-  /* padding-top: 56.25%; */
   position: relative;
   background: none;
 }

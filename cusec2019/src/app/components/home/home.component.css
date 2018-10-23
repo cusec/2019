@@ -1,5 +1,27 @@
+.beige-dark {
+    background-color: #dad5c2;
+}
+
+.beige {
+  background-color: #eae7dc;
+}
+
+.padded {
+  padding-top: 4%;
+  padding-bottom: 4%;
+}
+
+.padded-low {
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+
+.square {
+  padding: 7%;
+}
+
 .message {
-  font-size: 20pt;
+  font-size: 18pt;
 }
 
 .event-img {

@@ -2,6 +2,25 @@
     background-color: #dad5c2;
 }
 
+.tickets-small {
+  /* width : 100%; */
+  padding: 1%;
+  width: 200px;
+  height: 100px;
+}
+
+@media (max-width: 1020px) {
+  img.tickets-small {
+    width: 150px;
+    height: 75px;
+    padding: 2%;
+  }
+}
+
+.container-alert {
+  padding: 0%;
+}
+
 .beige {
   background-color: #eae7dc;
 }

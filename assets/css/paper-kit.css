@@ -564,6 +564,35 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
   border-top-color: #FFFFFF;
 }
 
+.btn-tickets-pro {
+  background-color: #57b1de;
+  border-color: #57b1de;
+  color: #FFFFFF;
+  opacity: 1;
+  filter: alpha(opacity=100);
+}
+.btn-tickets-pro:hover, .btn-tickets-pro:focus, .btn-tickets-pro:active, .btn-tickets-pro.active, .show > .btn-tickets-pro.dropdown-toggle {
+  background-color: #39a7de;
+  color: #FFFFFF;
+  border-color: #39a7de;
+}
+.btn-tickets-pro .caret {
+  border-top-color: #FFFFFF;
+}
+.btn-tickets-pro.btn-link {
+  color: #57b1de;
+}
+.btn-tickets-pro.btn-link:hover, .btn-tickets-pro.btn-link:focus, .btn-tickets-pro.btn-link:active, .btn-tickets-pro.btn-link.active, .open > .btn-tickets-pro.btn-link.dropdown-toggle {
+  background-color: transparent;
+  color: #39a7de;
+}
+.btn-tickets-pro.btn-link .caret {
+  border-top-color: #39a7de;
+}
+.btn-tickets-pro .caret {
+  border-top-color: #FFFFFF;
+}
+
 .btn-warning {
   background-color: #fbc658;
   border-color: #fbc658;
@@ -1470,7 +1499,7 @@ textarea.form-control {
   font-weight: 400;
 }
 .tooltip .arrow::before {
-  border-left-color: #FFFFFF !important;
+  /* border-left-color: #d05151 !important; */
 }
 .tooltip .arrow::after {
   border-left-color: rgba(0, 0, 0, 0.2) !important;

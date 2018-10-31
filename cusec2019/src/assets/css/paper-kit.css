@@ -136,6 +136,11 @@ blockquote small {
   animation: heathing 1s ease infinite;
 }
 
+.bolt {
+  color: #f0ed0d;
+  animation: heathing 1s ease infinite;
+}
+
 @keyframes heathing {
   0% {
     transform: scale(0.75);

@@ -2365,7 +2365,7 @@ textarea.form-control {
   background: #66615b;
 }
 .navbar[class*="bg-"] .navbar-toggler .navbar-toggler-bar, .navbar.navbar-transparent .navbar-toggler .navbar-toggler-bar {
-  background: #fff;
+  background: #66615b;
 }
 .navbar-toggler .navbar-toggler-bar {
   display: block;

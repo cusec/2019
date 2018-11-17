@@ -1,3 +1,19 @@
 .icon {
   color: #ff9516;
 }
+
+@media (max-width: 767px) {
+
+.img-padded {
+  padding-top: 5% !important;
+  padding-bottom: 2% !important;
+  margin: 2% !important;
+}
+
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0));
+}

@@ -112,3 +112,13 @@ img.align-self {
   color: #d92986;
   text-shadow: 0 0 10px #d92986;
 }
+
+@media (max-width: 767px) {
+
+.img-padded {
+  padding-top: 5% !important;
+  padding-bottom: 2% !important;
+  margin: 2% !important;
+}
+
+}

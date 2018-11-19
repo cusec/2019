@@ -27,9 +27,9 @@ h2, .h2 {
 }
 
 h3, .h3 {
-  font-size: 1.825em;
-  line-height: 1.4;
-  margin: 20px 0 0px;
+  font-size: 1.6em;
+  line-height: 1.1;
+  /* margin: 20px 0 0px; */
 }
 
 h4, .h4 {
@@ -5794,6 +5794,10 @@ textarea.form-control {
 
 .landing-alert {
   margin-bottom: 0;
+}
+
+.justified {
+  text-align: justify;
 }
 
 .page-header {

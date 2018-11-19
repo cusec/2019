@@ -5796,6 +5796,10 @@ textarea.form-control {
   margin-bottom: 0;
 }
 
+.justified {
+  text-align: justify;
+}
+
 .page-header {
   background-color: #B2AFAB;
   background-position: center center;

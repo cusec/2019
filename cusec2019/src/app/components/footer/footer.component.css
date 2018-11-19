@@ -1,0 +1,8 @@
+
+@@media (max-width: 767px) {
+  .p {
+    font-size: 8px;
+    line-height: 1.5em;
+    margin-bottom: 5px;
+  }
+}

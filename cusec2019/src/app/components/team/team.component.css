@@ -49,16 +49,3 @@ h6 {
   border: solid 10px white;
   /* box-shadow: -3px -3px 12px #999; */
 }
-
-img {
-  display: block;
-  filter: sepia(10%);
-  padding: 0;
-  margin: 0;
-  width: 100%;
-  height: auto;
-  border-top: solid 2px #aaa;
-  border-left: solid 2px #aaa;
-  border-bottom: solid 2px #ccc;
-  border-right: solid 2px #ccc;
-}

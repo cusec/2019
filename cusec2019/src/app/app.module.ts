@@ -16,18 +16,20 @@ import { HomeComponent } from './components/home/home.component';
 import { PagenotfoundComponent } from './components/pagenotfound/pagenotfound.component';
 import { HeaderComponent } from './components/header/header.component';
 import { FooterComponent } from './components/footer/footer.component';
+import { TalksComponent } from './components/talks/talks.component';
 
 const appRoutes: Routes = [
   {path:'', component:HomeComponent},
   {path:'home', component:HomeComponent},
   {path:'codeofconduct', component:CodeofconductComponent},
   {path:'schedule', component:ScheduleComponent},
-  {path:'speakers', component:SpeakersComponent},
+  {path:'speakers-info', component:SpeakersComponent},
   {path:'sponsors', component:SponsorsComponent},
   {path:'schools', component:SchoolsComponent},
   {path:'organizers', component:TeamComponent},
   {path:'venue', component:VenueComponent},
   {path:'workshops', component:WorkshopsComponent},
+  {path:'speakers', component:TalksComponent},
   { path: '**', component: PagenotfoundComponent }
 ];
 
@@ -45,7 +47,8 @@ const appRoutes: Routes = [
     HomeComponent,
     PagenotfoundComponent,
     HeaderComponent,
-    FooterComponent
+    FooterComponent,
+    TalksComponent
   ],
   imports: [
     BrowserModule,

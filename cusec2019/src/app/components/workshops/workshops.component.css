@@ -1,7 +1,9 @@
-#title {
-  padding-top: 5%;
-  padding-bottom: 5%;
+.title {
+  margin-bottom: 2%;
   font-weight: bold;
+  text-align: center;
+  font-size: 1.4em;
+
 }
 
 .workshop-item {

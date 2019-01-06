@@ -1,6 +1,7 @@
 #title {
   padding-top: 5%;
   padding-bottom: 5%;
+  font-weight: bold;
 }
 
 .workshop-item {
@@ -13,5 +14,15 @@
 hr {
   border: 0;
   height: 1px;
-  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0));
+}
+
+.img-rounded-w {
+  /* border-radius: 5px; */
+  transition: opacity 0.5s ease 0s;
+  max-width: 100%;
+}
+
+.img-responsive {
+  margin:0 auto;
 }

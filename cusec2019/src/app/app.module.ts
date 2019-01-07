@@ -10,7 +10,6 @@ import { SpeakersComponent } from './components/speakers/speakers.component';
 import { SponsorsComponent } from './components/sponsors/sponsors.component';
 import { SchoolsComponent } from './components/schools/schools.component';
 import { TeamComponent } from './components/team/team.component';
-import { VenueComponent } from './components/venue/venue.component';
 import { WorkshopsComponent } from './components/workshops/workshops.component';
 import { HomeComponent } from './components/home/home.component';
 import { PagenotfoundComponent } from './components/pagenotfound/pagenotfound.component';
@@ -27,7 +26,6 @@ const appRoutes: Routes = [
   {path:'sponsors', component:SponsorsComponent},
   {path:'schools', component:SchoolsComponent},
   {path:'organizers', component:TeamComponent},
-  {path:'venue', component:VenueComponent},
   {path:'workshops', component:WorkshopsComponent},
   {path:'speakers', component:TalksComponent},
   { path: '**', component: PagenotfoundComponent }
@@ -42,7 +40,6 @@ const appRoutes: Routes = [
     SponsorsComponent,
     SchoolsComponent,
     TeamComponent,
-    VenueComponent,
     WorkshopsComponent,
     HomeComponent,
     PagenotfoundComponent,
